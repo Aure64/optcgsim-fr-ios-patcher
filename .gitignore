@@ -1,0 +1,8 @@
+fr_repo
+fr_repo/
+*.ipa
+__pycache__/
+*.pyc
+.venv/
+venv/
+.DS_Store
