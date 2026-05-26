@@ -18,6 +18,12 @@ The output is an unsigned `.ipa` that you re-install via
 > [Sparklight-TL/OPTCGSim_FR](https://github.com/Sparklight-TL/OPTCGSim_FR)
 > translation repo.
 
+## Tested versions
+
+| OPTCGSim iOS | Patched on | Cards injected | Notes                                              |
+|--------------|------------|----------------|----------------------------------------------------|
+| 1.39a        | 2026-05-26 | 1530           | OP16 / ST30 not yet translated upstream (English). |
+
 ## What it patches
 
 - **Card images** — adds `<card>_OVERRIDE.png` next to each original card
