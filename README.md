@@ -1,81 +1,86 @@
-# OPTCGSim iOS — French patch
+# OPTCGSim iOS — Patch français
 
-A pre-built French translation of [OPTCGSim](https://www.optcgsim.com/) for
-iOS, based on the community translation maintained at
+Une version pré-traduite d'[OPTCGSim](https://www.optcgsim.com/) pour
+iOS, basée sur la traduction communautaire maintenue par
 [Sparklight-TL/OPTCGSim_FR](https://github.com/Sparklight-TL/OPTCGSim_FR).
 
-Just download the patched `.ipa` from the
-[**Releases**](https://github.com/Aure64/optcgsim-fr-ios-patcher/releases)
-page and sideload it on your iPhone.
+Télécharge simplement le `.ipa` patché depuis la page
+[**Releases**](https://github.com/Aure64/optcgsim-fr-ios-patcher/releases),
+puis sideload-le sur ton iPhone.
 
-## What's translated
+## Ce qui est traduit
 
-- **Card images** — French versions of the cards, with alt-art styles
-  (Manga, Full Art, SP Cards, Tampon Foil, etc.) applied where available.
-- **UI / menus** — buttons, dialogs, deck editor, and all text strings
-  shown by the app.
+- **Images des cartes** — versions françaises de toutes les cartes, avec
+  les styles alt-art (Manga, Full Art, SP Cards, Tampon Foil, etc.)
+  appliqués quand ils existent.
+- **Interface / menus** — boutons, dialogues, éditeur de deck, et tous
+  les textes affichés par l'application.
 
-A few sets stay in English until Sparklight-TL ships their translation
-(typically the latest OP set and the latest ST deck right after a game
-update). See the release notes for which sets are covered.
+Quelques sets restent en anglais tant que Sparklight-TL ne publie pas
+leur traduction (typiquement le dernier OP et le dernier ST juste après
+une mise à jour du jeu). Voir les notes de release pour la liste précise
+des sets couverts.
 
 ## Installation
 
-### What you need
+### Ce qu'il te faut
 
-- An iPhone (no jailbreak required)
-- A computer with [Sideloadly](https://sideloadly.io/) installed
-- Your Apple ID (a free one works; you'll need to re-sideload every 7 days)
+- Un iPhone (pas besoin de jailbreak)
+- Un PC ou Mac avec [Sideloadly](https://sideloadly.io/) installé
+- Ton Apple ID (un compte gratuit suffit ; il faudra re-sideloader tous
+  les 7 jours)
 
-### Steps
+### Étapes
 
-1. Download the latest `OPTCGSim_FR.ipa` from the
-   [Releases page](https://github.com/Aure64/optcgsim-fr-ios-patcher/releases).
-2. Open Sideloadly and drag the `.ipa` into it.
-3. Plug in your iPhone, enter your Apple ID, click **Start**.
-4. On the iPhone: *Settings → General → VPN & Device Management* — trust
-   the developer profile.
-5. Launch OPTCGSim.
+1. Télécharge le dernier `OPTCGSim_FR.ipa` depuis la
+   [page Releases](https://github.com/Aure64/optcgsim-fr-ios-patcher/releases).
+2. Ouvre Sideloadly et glisse le `.ipa` dedans.
+3. Branche ton iPhone, entre ton Apple ID, clique sur **Start**.
+4. Sur l'iPhone : *Réglages → Général → VPN et gestion de l'appareil* —
+   fais confiance au profil développeur.
+5. Lance OPTCGSim.
 
-If you've already installed an English OPTCGSim with the same Apple ID,
-the French one replaces it directly — you don't need to delete the old
-app first.
+Si tu avais déjà installé OPTCGSim en anglais avec le même Apple ID, la
+version française remplace directement l'ancienne — pas besoin de
+désinstaller avant.
 
-### Re-signing every 7 days (free Apple ID)
+### Re-signer tous les 7 jours (Apple ID gratuit)
 
-A free Apple ID signature expires after 7 days. Just open Sideloadly,
-re-drop the same `.ipa`, and start again — your decks and settings are
-preserved.
+Avec un Apple ID gratuit, la signature expire au bout de 7 jours. Il
+suffit de rouvrir Sideloadly, re-déposer le même `.ipa`, et relancer
+l'install — tes decks et tes paramètres sont conservés.
 
-## Troubleshooting
+## En cas de problème
 
-- **Sideloadly fails to install** — the `.ipa` is ~2 GB. Free up space on
-  the iPhone, or split the install over Wi-Fi rather than USB if it times
-  out.
-- **Some cards still in English** — expected for the newest sets that
-  haven't been translated upstream yet. Check the release notes for the
-  list of covered sets.
-- **App crashes on launch** — make sure your iOS version is supported by
-  the OPTCGSim release this IPA was built from (see release notes).
+- **Sideloadly n'arrive pas à installer** — le `.ipa` fait ~2 GB. Libère
+  de l'espace sur l'iPhone, ou passe l'install en Wi-Fi si le câble USB
+  timeout.
+- **Certaines cartes restent en anglais** — c'est normal pour les sets
+  les plus récents qui n'ont pas encore été traduits côté Sparklight-TL.
+  Voir les notes de release pour la liste des sets couverts.
+- **L'appli crash au lancement** — vérifie que ta version d'iOS est bien
+  supportée par la version d'OPTCGSim sur laquelle l'IPA a été construit
+  (indiqué dans les notes de release).
 
-## Credits
+## Crédits
 
-- [Sparklight-TL](https://github.com/Sparklight-TL) — French translation
-  (card images and UI strings)
+- [Sparklight-TL](https://github.com/Sparklight-TL) — traduction
+  française (images des cartes et textes de l'interface)
 - Batsu — OPTCGSim
-- Bandai / Toei / Shueisha — One Piece IP
+- Bandai / Toei / Shueisha — propriété intellectuelle One Piece
 
-## License
+## Licence
 
-This distribution combines third-party assets governed by their own
-licenses:
+Cette distribution combine des contenus tiers régis par leurs propres
+licences :
 
-- The OPTCGSim binary is the work of Batsu; see the original app for its
-  terms.
-- The French card images and `TRANSLATION.txt` are governed by the
-  licenses on [Sparklight-TL/OPTCGSim_FR](https://github.com/Sparklight-TL/OPTCGSim_FR).
-- One Piece artwork and trademarks belong to Bandai, Toei Animation, and
-  Shueisha.
+- Le binaire OPTCGSim est l'œuvre de Batsu ; voir l'application
+  d'origine pour ses conditions d'utilisation.
+- Les images de cartes françaises et le fichier `TRANSLATION.txt` sont
+  régis par les licences du dépôt
+  [Sparklight-TL/OPTCGSim_FR](https://github.com/Sparklight-TL/OPTCGSim_FR).
+- Les artworks et marques One Piece appartiennent à Bandai, Toei
+  Animation et Shueisha.
 
-This repository is a fan distribution channel for the iOS port of the
-above translation. No commercial use.
+Ce dépôt est un canal de distribution communautaire pour le portage iOS
+de la traduction ci-dessus. Aucun usage commercial.
