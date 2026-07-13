@@ -1,12 +1,16 @@
 # OPTCGSim iOS — Patch français
 
 Une version pré-traduite d'[OPTCGSim](https://www.optcgsim.com/) pour
-iOS, basée sur la traduction communautaire maintenue par
-[Sparklight-TL/OPTCGSim_FR](https://github.com/Sparklight-TL/OPTCGSim_FR).
+iOS, basée sur la traduction communautaire de Sparklight, distribuée via
+[opcollec.fr/patch](https://opcollec.fr/patch).
 
 Télécharge simplement le `.ipa` patché depuis la page
 [**Releases**](https://github.com/Aure64/optcgsim-fr-ios-patcher/releases),
 puis sideload-le sur ton iPhone.
+
+> **Tu joues sur PC ou Android ?** Utilise directement le patcheur
+> officiel sur [opcollec.fr/patch](https://opcollec.fr/patch) — ce dépôt
+> ne concerne que le portage iOS.
 
 ## Ce qui est traduit
 
@@ -16,10 +20,10 @@ puis sideload-le sur ton iPhone.
 - **Interface / menus** — boutons, dialogues, éditeur de deck, et tous
   les textes affichés par l'application.
 
-Quelques sets restent en anglais tant que Sparklight-TL ne publie pas
-leur traduction (typiquement le dernier OP et le dernier ST juste après
-une mise à jour du jeu). Voir les notes de release pour la liste précise
-des sets couverts.
+Quelques cartes peuvent rester en anglais tant que leur traduction n'est
+pas publiée sur opcollec.fr (typiquement le dernier OP et le dernier ST
+juste après une mise à jour du jeu). Voir les notes de release pour la
+liste précise des sets couverts.
 
 ## Installation
 
@@ -52,20 +56,21 @@ l'install — tes decks et tes paramètres sont conservés.
 
 ## En cas de problème
 
-- **Sideloadly n'arrive pas à installer** — le `.ipa` fait ~2 GB. Libère
+- **Sideloadly n'arrive pas à installer** — le `.ipa` fait ~1 GB. Libère
   de l'espace sur l'iPhone, ou passe l'install en Wi-Fi si le câble USB
   timeout.
 - **Certaines cartes restent en anglais** — c'est normal pour les sets
-  les plus récents qui n'ont pas encore été traduits côté Sparklight-TL.
-  Voir les notes de release pour la liste des sets couverts.
+  les plus récents dont la traduction n'est pas encore publiée sur
+  opcollec.fr. Voir les notes de release pour la liste des sets couverts.
 - **L'appli crash au lancement** — vérifie que ta version d'iOS est bien
   supportée par la version d'OPTCGSim sur laquelle l'IPA a été construit
   (indiqué dans les notes de release).
 
 ## Crédits
 
-- [Sparklight-TL](https://github.com/Sparklight-TL) — traduction
-  française (images des cartes et textes de l'interface)
+- Sparklight ([opcollec.fr](https://opcollec.fr/patch),
+  anciennement [Sparklight-TL/OPTCGSim_FR](https://github.com/Sparklight-TL/OPTCGSim_FR))
+  — traduction française (images des cartes et textes de l'interface)
 - Batsu — OPTCGSim
 - Bandai / Toei / Shueisha — propriété intellectuelle One Piece
 
@@ -77,8 +82,8 @@ licences :
 - Le binaire OPTCGSim est l'œuvre de Batsu ; voir l'application
   d'origine pour ses conditions d'utilisation.
 - Les images de cartes françaises et le fichier `TRANSLATION.txt` sont
-  régis par les licences du dépôt
-  [Sparklight-TL/OPTCGSim_FR](https://github.com/Sparklight-TL/OPTCGSim_FR).
+  l'œuvre de Sparklight, distribuée via
+  [opcollec.fr/patch](https://opcollec.fr/patch).
 - Les artworks et marques One Piece appartiennent à Bandai, Toei
   Animation et Shueisha.
 
